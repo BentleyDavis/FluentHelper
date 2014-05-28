@@ -33,4 +33,4 @@ Code Layout
 *   FluentRunner folder conatins a sample to demonstrait a fluent object being created and used.
     *   Person.cs: shows the POCO (Plain Old CLR Object) that is to be made fluent
     *   PersonList.cs: creates a list object and adds the proper FluentCollection types from the FluentHelper library.
-    *   Program.cs: demonstraits uing the fluent collection
+    *   Program.cs: demonstraits using the fluent collection
