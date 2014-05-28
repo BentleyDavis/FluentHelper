@@ -4,7 +4,7 @@ FluentHelper
 A library to help you write objects that can be acted upon in groups with a simple fluid syntax which is more succinct that LInQ alone
 
 Example
-============
+------------
 
 Let’s imagine that you have a collection of people.
 
@@ -25,3 +25,15 @@ Now imagine that you are responsible for creating an maintaining a large list of
 One solution is a fluent interface. It’s a little more readable. Here is the same query done fluently.
 
     PersonList q = People.Name().StartsWith("B").BirthDate().Greater(new DateTime(2000,1,1));
+
+Code Layout
+------------
+The folder FluentHelper contains the source code for the helper library. You can compile this to a dll to use it in your project.
+
+The folder FluentRunner is a sample to demonstrait a fluent object being created and used.
+
+FluentRunner\Person.cs: shows the POCO (Plain Old CLR Object) that is to be made fluent
+
+FluentRunner\PersonList.cs: creates a list object and adds the proper FluentCollection types from the FluentHelper library.
+
+FluentRunner\Program.cs: demonstraits uing the fluent collection
