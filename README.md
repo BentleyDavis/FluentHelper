@@ -28,12 +28,9 @@ One solution is a fluent interface. It’s a little more readable. Here is the s
 
 Code Layout
 ------------
-The folder FluentHelper contains the source code for the helper library. You can compile this to a dll to use it in your project.
+*   FluentHelper folder contains the source code for the helper library. You can compile this to a dll to use it in your project.
 
-The folder FluentRunner is a sample to demonstrait a fluent object being created and used.
-
-FluentRunner\Person.cs: shows the POCO (Plain Old CLR Object) that is to be made fluent
-
-FluentRunner\PersonList.cs: creates a list object and adds the proper FluentCollection types from the FluentHelper library.
-
-FluentRunner\Program.cs: demonstraits uing the fluent collection
+*   FluentRunner folder conatins a sample to demonstrait a fluent object being created and used.
+    *   Person.cs: shows the POCO (Plain Old CLR Object) that is to be made fluent
+    *   PersonList.cs: creates a list object and adds the proper FluentCollection types from the FluentHelper library.
+    *   Program.cs: demonstraits uing the fluent collection
