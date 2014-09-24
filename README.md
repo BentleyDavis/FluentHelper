@@ -1,3 +1,5 @@
+This is sample code from a series of blog posts from February 2010. You can see the series of posts at [BentleyDavis.com/tags/fluent](http://BentleyDavis.com/tags/fluent)
+
 FluentHelper
 ============
 
